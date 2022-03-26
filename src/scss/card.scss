@@ -1,0 +1,140 @@
+.card {
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.cardInner {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .cardInner {
+    transform: rotateY(180deg);
+}
+
+.cardFront,
+.cardBack {
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.cardFront {
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+
+    img {
+        display: block;
+        object-fit: cover;
+        backface-visibility: hidden;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+    }
+}
+
+.cardBack {
+    background: white;
+    transform: rotateY(180deg);
+    color: #171717;
+    padding: 20px 20px;
+    
+    .titleCard {
+        letter-spacing: 2.5px;
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .cardContent {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    .iconsCard {
+        display: flex;
+        justify-content: center;
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 10px;
+        }
+        margin-bottom: 20px;
+    }
+
+    .iconsLink {
+        display: flex;
+        justify-content: center;
+        h5 {
+            margin-bottom: 5px;
+        }
+        a {
+            margin: 0 25px;
+        }
+    }
+}
+
+@media screen and(max-width: 480px) {
+    .cardBack {
+        .titleCard {
+            font-size: 1rem;
+            margin-bottom: 3px;
+        }
+        .cardContent {
+            font-size: .8rem;
+            margin-bottom: 10px;
+        }
+        .iconsCard{
+            margin-bottom: 10px;
+           ul li img{
+              width: 25px; 
+              height: 25px;
+           } 
+        }
+        .iconsLink{
+            h5{
+                font-size: .7rem;
+            }
+            a img{
+                width: 25px; 
+                height: 25px; 
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 380px) {
+    .cardBack {
+        .titleCard {
+            font-size: .9rem;
+        }
+        .cardContent {
+            font-size: .8rem;
+        }
+        .iconsCard{
+            margin-bottom: 1px;
+           ul li img{
+              width: 20px; 
+              height: 20px;
+           } 
+        }
+        .iconsLink{
+            a img{
+                width: 22px; 
+                height: 22px; 
+            }
+        }
+    }
+}

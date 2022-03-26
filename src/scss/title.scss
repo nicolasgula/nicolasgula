@@ -1,0 +1,52 @@
+#containerTitle{
+    color: white;
+    font-family: 'Quicksand';
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#title{
+    font-weight: 400;
+    font-size: 2.4rem;
+    letter-spacing: 2px;
+}
+
+#subTitle{
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 3.5px;
+}
+
+.containerTitleBlack{
+    margin-top: 100px;
+}
+
+
+#titleBlack, #subtitleBlack{
+    color: black;
+} 
+
+@media screen and (max-width: 680px){
+    #containerTitle{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #containerTitle{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 330px){
+    #title{
+        font-size: 1.8rem;
+    }
+    #subTitle{
+        font-size: .8em;
+    }
+}
+

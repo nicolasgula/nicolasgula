@@ -1,0 +1,52 @@
+.burger, .burgerHidden{
+    display: none;
+    cursor: pointer;
+    transition: all .2s ease-out;
+}
+
+.line1, .line2, .line3{
+    width: 25px;
+    height: 3px;
+    background-color: #F25F29;
+    margin: 5px;
+    transition: all .2s ease-out;
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.animated {
+    animation: navLinkFadeShow .5s ease forwards .1s;
+    display:flex;
+}
+
+@keyframes navLinkFadeShow {
+    from {
+        opacity: 0;
+        -webkit-transform: translateX(50px);
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .burger{
+        display: block;
+        z-index: 2;
+        visibility: visible;
+        transition: all 1s ease-in;
+    }
+}

@@ -1,0 +1,23 @@
+@mixin Link {
+    color: rgb(0, 0, 0);
+    list-style: none;
+    font-family: 'Quicksand';
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+@mixin Navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 50px;
+    position: fixed;
+    min-height: 9vh;
+    z-index: 1;
+    top: 0;
+}
+

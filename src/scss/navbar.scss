@@ -1,0 +1,98 @@
+@import "./mixins.scss";
+
+#navbarWhite {
+    @include Navbar;
+    background-color: white;
+    box-shadow: 0.1px 0.1px 15px 0.1px black;
+    transition: all .1s ease-in;
+}
+
+#navbarTransparent {
+    @include Navbar;
+}
+
+#logoHidden {
+    visibility: hidden;
+    font-family: "Parisienne", cursive;
+    transition: all .2s ease-out;
+}
+
+#logoVisible {
+    cursor: pointer;
+    font-family: "Parisienne", cursive;
+    font-size: 2rem;
+    color: #F25F29;
+    visibility: visible;
+    transition: all .1s ease-in;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+.linkHidden {
+    @include Link;
+    visibility: hidden;
+    display: none
+}
+
+.linkBlack {
+    @include Link;
+    transition: all .5s ease-in;
+    visibility: visible;
+}
+
+.linkBlack:after {
+    display: block;
+    content: "";
+    border-bottom: solid 2px #F25F29;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.linkBlack:hover:after {
+    transform: scaleX(1);
+}
+
+link:link,
+a:link {
+    text-decoration: inherit;
+}
+
+link:visited,
+a:visited {
+    text-decoration: inherit;
+}
+
+@media screen and (max-width: 768px){
+    .navLinks{
+        margin-right: 0;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        transform: translateX(100%);
+        transition: transform 0.2s ease-in-out;
+        background: rgba(255, 255, 255, 0);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(25px);
+        display: none;
+    }
+    .linkBlack{
+        font-size: 2rem;
+    }
+    #navbarWhite{
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #navbarWhite{
+       padding: 0 30px ;
+    }
+}

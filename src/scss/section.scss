@@ -1,0 +1,151 @@
+.displaySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 20px 90px;
+    font-family: 'Quicksand';
+    text-align: center;
+}
+
+.sectionTitle {
+    h2 {
+        padding: 1px;
+        font-weight: 500;
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+    h3 {
+        font-weight: 400;
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+    }
+    margin-bottom: 50px;
+}
+
+#sectionPhoto {
+    background: url("/images/nicolas.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.sectionIcons {
+    width: 15%;
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    li {
+        list-style: none;
+        margin: 0 10px;
+    }
+    margin-bottom: 40px;
+}
+
+#icon {
+    width: 40px;
+    height: 40px;
+}
+
+#icon:hover {
+    background-color: #E85D1C;
+    border-radius: 10%;
+    transform: scale(1.3);
+    transition: transform 0.7s ease-in-out;
+}
+
+.sectionText {
+    width: 50%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.sectionTextNotes{
+    padding: 20px 30px;
+}
+
+#portfolioBackground {
+    background-color: #80c8d3;
+    background-image: linear-gradient(315deg, #12879B 0%, #E8C31C 74%);
+}
+
+.containerCards {
+    width: 90%;
+    padding: 50px 40px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+    grid-gap: 30px;
+}
+
+@media screen and(max-width: 1200px) {
+    .containerCards {
+        width: 100%;
+        padding: 50px 40px;
+    }
+}
+
+@media screen and(max-width: 1024px) {
+    .containerCards {
+        width: 100%;
+        padding: 50px 20px;
+    }
+}
+
+@media screen and(max-width:900px) {
+    .sectionTitle,
+    #sectionPhoto,
+    .sectionIcons,
+    .sectionText {
+        margin-bottom: 25px;
+    }
+    .sectionText {
+        width: 80%;
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .containerCards {
+        width: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-auto-rows: 220px;
+        grid-gap: 30px;
+    }
+    .parragraphs{
+        width: 100%;
+    }
+    .sectionTextNotes{
+        width: 100%;
+    }
+}
+
+@media screen and(max-width:480px) {
+    .containerCards{
+        padding: 20px 30px;
+    }
+    #sectionText {
+        width: 90%;
+    }
+    .sectionTitle {
+        h3 {
+            font-size: .8rem;
+        }
+    }
+}
+
+@media screen and(max-width:320px) {
+    .sectionTitle {
+        h3 {
+            font-size: 1rem;
+        }
+    }
+}

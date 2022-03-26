@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "url": "https://www.linkedin.com/in/nicolasgula/",
+        "icon": "linkedin"
+    },
+    {
+        "id": 2,
+        "url": "https://github.com/NicolasGula",
+        "icon": "github"
+    },
+    {
+        "id": 3,
+        "url": "nicolasgula@outlook.com",
+        "icon": "outlook"
+    }
+]
