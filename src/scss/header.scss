@@ -5,7 +5,48 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     scroll-behavior: smooth;
 }
 
+.arrow {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 2rem;
+
+    span {
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-bottom: 2px solid white;
+        border-right: 2px solid white;
+        transform: rotate(45deg);
+        margin: 1px;
+        animation: animate 2s infinite;
+    }
+
+    span:nth-child(2) {
+        animation-delay: -0.2s;
+    }
+
+    span:nth-child(3) {
+        animation-delay: -0.4s;
+    }
+
+    @keyframes animate {
+        0% {
+          opacity: 0;
+          transform: rotate(45deg) translate(-20px, -20px);
+        }
+        50% {
+          opacity: 1;
+          transform: rotate(45deg);
+        }
+        100% {
+          opacity: 0;
+          transform: rotate(45deg) translate(20px, 20px);
+        }
+      }
+}
