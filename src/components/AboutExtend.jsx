@@ -1,4 +1,4 @@
-import '../scss/blogs.scss';
+import '../scss/aboutExtend.scss';
 
 const title = {
   title: "Acerca de mi",
@@ -15,7 +15,7 @@ function AboutExtend() {
       </div>
 
       <div className='sectionText sectionTextNotes'>
-
+{/* COMO PASAR TODO A MD Y CONECTARLO CON REACT */}
         <section className='parragraphs'>
           <p >Hola, soy Nicolás, estudiante de la carrera Analista programador
             y un entusiasta del desarrollo frontend desde hace 4 años. Gracias por leer estas líneas, te agradezco que lo estes haciendo.</p>

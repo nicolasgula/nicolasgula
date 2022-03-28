@@ -4,134 +4,179 @@
         "img": "./images/photos/ip-tracking.png",
         "title": "RASTREADOR DE IP",
         "content": "Implemente APIs de ipdata en el front end con React JS, en este caso, para geolocalizar la dirección ip y mostrar en un  mapa la ubicación.",
-        "src": ["html", "css", "sass", "js", "react", "vite", "reactLeaflet"],
+        "src": [
+            "html",
+            "css",
+            "sass",
+            "js",
+            "react",
+            "vite",
+            "reactLeaflet"
+        ],
         "repoUrl": {
-            "link": "https://github.com/NicolasGula/ip-address-tracking" ,
+            "link": "https://github.com/NicolasGula/ip-address-tracking",
             "icon": "githubLink"
         },
         "liveUrl": {
-            "link" : "https://ipaddresstracking.netlify.app/",
-            "icon" :  "link"
-        } 
+            "link": "https://ipaddresstracking.netlify.app/",
+            "icon": "link"
+        }
     },
     {
         "id": 2,
         "img": "./images/photos/tip-calculator.jpg",
         "title": "TIP CALCULATOR",
         "content": "Para aprender React JS arme esta simple calculadora de propinas, usando hooks básicos como useState, useEffect, useRef y useContext.",
-        "src": ["html", "css", "sass", "js", "react", "create-react-app"],
+        "src": [
+            "html",
+            "css",
+            "sass",
+            "js",
+            "react",
+            "create-react-app"
+        ],
         "repoUrl": {
-            "link": "https://github.com/NicolasGula/tip-calculator" ,
+            "link": "https://github.com/NicolasGula/tip-calculator",
             "icon": "githubLink"
         },
         "liveUrl": {
-            "link" : "https://tipscalculatorwithreact.netlify.app/",
-            "icon" :  "link"
-        } 
+            "link": "https://tipscalculatorwithreact.netlify.app/",
+            "icon": "link"
+        }
     },
     {
         "id": 3,
         "img": "./images/photos/masajes.png",
         "title": "MASAJES NyN",
         "content": "Uno de mis primeros trabajos web. Es una maqueta que cree para un salón de masajes, mientras empezaba con HTML, CSS Y BOOTSTRAP.",
-        "src": ["html", "css", "bootstrap"],
+        "src": [
+            "html",
+            "css",
+            "bootstrap"
+        ],
         "repoUrl": {
-            "link": "https://github.com/NicolasGula/nynmasajes" ,
+            "link": "https://github.com/NicolasGula/nynmasajes",
             "icon": "githubLink"
         },
         "liveUrl": {
-            "link" : "https://nicolasgula.github.io/nynmasajes",
-            "icon" :  "link"
-        } 
+            "link": "https://nicolasgula.github.io/nynmasajes",
+            "icon": "link"
+        }
     },
     {
-        "id":4,
-        "img" : "./images/photos/time-tracking.jpg",
+        "id": 4,
+        "img": "./images/photos/time-tracking.jpg",
         "title": "TIME TRACKING DASHBOARD",
         "content": "He aprovechado este dashboard para empezar mi aprendizaje con react js. Relacionandome de a poco con componentes, useState y props.",
-        "src": ["html", "css", "sass" , "js","react", "create-react-app"],
+        "src": [
+            "html",
+            "css",
+            "sass",
+            "js",
+            "react",
+            "create-react-app"
+        ],
         "repoUrl": {
-            "link": "https://github.com/NicolasGula/time-tracking-dashboard" ,
+            "link": "https://github.com/NicolasGula/time-tracking-dashboard",
             "icon": "githubLink"
         },
         "liveUrl": {
-            "link" : "https://www.timetraking.tk/",
-            "icon" :  "link"
-        } 
+            "link": "https://www.timetraking.tk/",
+            "icon": "link"
+        }
     },
     {
-        "id":5,
+        "id": 5,
         "img": "./images/photos/social-section.jpg",
         "title": "SOCIAL SECTION",
         "content": "Esta sección de prueba social fue una gran manera de seguir aprendiendo sobre el diseño web responsivo.",
-        "src": ["html", "css", "sass"],
+        "src": [
+            "html",
+            "css",
+            "sass"
+        ],
         "repoUrl": {
-            "link": "https://github.com/NicolasGula/social-proof-section" ,
+            "link": "https://github.com/NicolasGula/social-proof-section",
             "icon": "githubLink"
         },
         "liveUrl": {
-            "link" : "https://nicolasgula.github.io/social-proof-section/",
-            "icon" :  "link"
-        }  
+            "link": "https://nicolasgula.github.io/social-proof-section/",
+            "icon": "link"
+        }
     },
     {
-        "id":6,
+        "id": 6,
         "img": "./images/photos/profile.jpg",
         "title": "PROFILE CARD COMPONENT",
         "content": "Mientras sigo practicando con css añado scss a mi abanico de conocimientos.",
-        "src": ["html", "css", "sass"],
+        "src": [
+            "html",
+            "css",
+            "sass"
+        ],
         "repoUrl": {
-            "link": "https://github.com/NicolasGula/Profile-card-component" ,
+            "link": "https://github.com/NicolasGula/Profile-card-component",
             "icon": "githubLink"
         },
         "liveUrl": {
-            "link" : "https://nicolasgula.github.io/Profile-card-component/",
-            "icon" :  "link"
-        } 
+            "link": "https://nicolasgula.github.io/Profile-card-component/",
+            "icon": "link"
+        }
     },
     {
-        "id":7,
+        "id": 7,
         "img": "./images/photos/nft-card-component.jpg",
         "title": "NFT CARD COMPONENT",
         "content": "Pequeño trabajo en el que aprendí (y seguir aprendiendo) flexbox, construyendo este componente inspirado en nft y crypto.",
-        "src": ["html", "css"],
+        "src": [
+            "html",
+            "css"
+        ],
         "repoUrl": {
-            "link": "https://github.com/NicolasGula/NFT-Card-Component" ,
+            "link": "https://github.com/NicolasGula/NFT-Card-Component",
             "icon": "githubLink"
         },
         "liveUrl": {
-            "link" : "https://nicolasgula.github.io/NFT-Card-Component/",
-            "icon" :  "link"
-        }   
+            "link": "https://nicolasgula.github.io/NFT-Card-Component/",
+            "icon": "link"
+        }
     },
     {
-        "id":8,
+        "id": 8,
         "img": "./images/photos/qr-code.jpg",
         "title": "QR CODE",
         "content": "Para mejorar mis habilidades empecé a construir proyectos de Frontend Mentor. Este es uno de los muchos en los que rehice el diseño web responsivo.",
-        "src": ["html", "css"],
+        "src": [
+            "html",
+            "css"
+        ],
         "repoUrl": {
-            "link": "https://nicolasgula.github.io/QR-Code/" ,
+            "link": "https://github.com/NicolasGula/QR-Code",
             "icon": "githubLink"
         },
         "liveUrl": {
-            "link" : "https://github.com/NicolasGula/QR-Code",
-            "icon" :  "link"
-        } 
+            "link": "https://nicolasgula.github.io/QR-Code/",
+            "icon": "link"
+        }
     },
     {
-        "id":9,
+        "id": 9,
         "img": "./images/photos/obligatorio.png",
         "title": "ENTREGAS!",
         "content": "Trabajo del primer semestre para la carrera de analista programador, programacion 1 con javascript. Esta aplicación gestiona las solicitudes de envío.",
-        "src": ["html", "css", "js", "bootstrap"],
+        "src": [
+            "html",
+            "css",
+            "js",
+            "bootstrap"
+        ],
         "repoUrl": {
             "link": "https://github.com/NicolasGula/obligatorioP1",
             "icon": "githubLink"
         },
         "liveUrl": {
-            "link" : "https://nicolasgula.github.io/obligatorioP1/",
-            "icon" :  "link"
-        } 
+            "link": "https://nicolasgula.github.io/obligatorioP1/",
+            "icon": "link"
+        }
     }
 ]

@@ -9,6 +9,8 @@ function Card({ img, title, content, src, repoUrl, liveUrl }) {
     
     let location = useLocation();
 
+    console.log(src);
+
     return (
         <div className='card'>
             <div className='cardInner'>

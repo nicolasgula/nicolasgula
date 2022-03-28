@@ -1,7 +1,7 @@
-//ESTILOS
-import '../scss/header.scss';
 //COMPONENTES
 import MainTitle from './MainTitle';
+//ESTILOS
+import '../scss/header.scss';
 
 const title ={
   title: "NICOLAS GULA",
