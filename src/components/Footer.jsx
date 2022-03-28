@@ -1,6 +1,7 @@
 //ESTILOS
 import '../scss/footer.scss';
 import '../scss/section.scss';
+
 //DATA
 import contacts from '../data/contact.json';
 //COMPONENTES
@@ -16,7 +17,7 @@ function Footer() {
                 </ul>
             </div>
             <div id='linkRepositorio'>
-                <p>Repositorio del Portfolio</p>
+                <p><a href="https://github.com/NicolasGula/NicolasGula">Repositorio del Portfolio</a></p>
             </div>
         </footer>
     )
