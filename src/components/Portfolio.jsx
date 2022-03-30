@@ -10,7 +10,7 @@ import ContainerCards from './ContainerCards';
 
 const Title ={
     title : "TRABAJOS",
-    subtitle : "ALGUNAS DE LAS COSAS QUE EH HECHO"
+    subtitle : "ALGUNAS DE LAS COSAS QUE HE HECHO"
 }
 
 function Portfolio() {
