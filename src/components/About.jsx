@@ -25,10 +25,10 @@ function About() {
             </div>
             <div className='sectionText'>
                 <p>Soy estudiante de la carrera Analista Programador y un entusiasta del frontend,
-                    enfocado en aprender y desarollar mis habilidades para poder crear sitios web elegantes
-                    y de facil acceso. En 2017 comence con HTML y CSS, me entusiasme al ver los resultados inmediatos de
-                    lo que escribia en mi pantalla y decidi tomar el camino del desarollo web,
-                    eventualmente sumergiendome en JavaScript y hace poco en React JS...</p>
+                    enfocado en aprender y desarrollar mis habilidades para poder crear sitios web elegantes
+                    y de fácil acceso. En 2017 comencé con HTML y CSS, me entusiasmé al ver los resultados inmediatos de
+                    lo que escribía en mi pantalla y decidí tomar el camino del desarrollo web,
+                    eventualmente sumergiéndome en JavaScript y hace poco en React JS...</p>
             </div>
         </section>
     )
