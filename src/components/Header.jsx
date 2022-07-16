@@ -6,7 +6,7 @@ import Arrow from './Arrow';
 
 const title ={
   title: "NICOLAS GULA",
-  subtitle : "FRONTEND DEVELOPER"
+  subtitle : "WEB DEVELOPER"
 }
 
 function Header() {
