@@ -1,7 +1,7 @@
 # <div align="center"> Hi there 👋 Im Nicolas Gula 👨‍💻 <div>
 
 <div align="center">
-I'm a frontend enthusiast, focused on learning and developing my skills   
+I'm a Junior Frontend Developer, focused on learning and developing my skills   
   
   to be able to create elegant and easily accessible websites.  
   In 2017 I started with HTML and CSS, got excited to see the immediate  
